@@ -14,3 +14,9 @@ spring:
         max-wait: -1ms
         max-idle: 8
         min-idle: 0
+  application:
+    name: nacos-common
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

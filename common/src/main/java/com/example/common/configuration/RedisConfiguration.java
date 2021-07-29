@@ -15,11 +15,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 @Configuration
 public class RedisConfiguration {
 
-//    @Bean(name = "springSessionDefaultRedisSerializer")
-//    public GenericJackson2JsonRedisSerializer getGenericJackson2JsonRedisSerializer() {
-//        return new GenericJackson2JsonRedisSerializer();
-//    }
-
     @Bean
     public RedisTemplate redisTemplate(RedisConnectionFactory redisConnectionFactory) {
 

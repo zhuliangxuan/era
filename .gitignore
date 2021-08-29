@@ -3,3 +3,6 @@
 mvnw
 mvnw.cmd
 *.iml
+target/
+.gitignore
+tmp
